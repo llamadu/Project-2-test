@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "BuildsADam52!",
-    "database": "degoba_db",
+    "password": "",
+    "database": "chores",
     "host": "localhost",
     "dialect": "mysql"
   },

@@ -22,10 +22,10 @@
           <table class="table table-bordered table-dark text-warning ml-2" id="table">
             <thead>
               <tr>
-                <th scope="col">Current Tasks</th>
-                <th scope="col">Points for task</th>
-                <th scope="col">Complete task</th>
-                <th scope="col">Delete task</th>
+                <th scope="col">To-Do Task</th>
+                <th scope="col">Payment for Task</th>
+                <th scope="col">Complete Task</th>
+                <th scope="col">Delete Task</th>
               </tr>
             </thead>
             <tbody>
@@ -46,15 +46,15 @@
     <div class="row justify-content-center">
       <div class="col-sm-8">
         <div class="task-container">
-          <h1 class="text-warning">Finished Chores</h1>
+          <h1 class="text-warning">Finished Tasks</h1>
           <div class="table-sm-responsive">
           <table class="table table-bordered table-dark text-warning ml-2" id="table-complete">
             <thead>
               <tr>
-                <th scope="col">Completed Tasks</th>
-                <th scope="col">Points for task</th>
-                <th scope="col">Complete task</th>
-                <th scope="col">Delete task</th>
+                <th scope="col">Completed Task</th>
+                <th scope="col">Payment for Task</th>
+                <th scope="col">Complete Task</th>
+                <th scope="col">Delete Task</th>
               </tr>
             </thead>
             <tbody>
@@ -82,7 +82,7 @@
     <div class="row mt-5 align-items-sm-start justify-content-center">
       <div class="add-score col-5-md mb-5 card bg-dark text-warning">
         <div class="card-body">
-          <h3>Total points</h3>
+          <h3>Payment Due</h3>
           <h1 class="points text-center"></h1>
           
         </div>
@@ -94,11 +94,11 @@
             <form id="cms">
               <div class="form-group">
           
-                <label for="Task">Chore:</label>
-                <textarea placeholder="Add New Chore" class="form-control" rows="3" id="task-body"></textarea>
+                <label for="Task">Task:</label>
+                <textarea placeholder="Add New Task" class="form-control" rows="3" id="task-body"></textarea>
                 
-                <label for="title">Points:</label>
-                <input placeholder="How many points is this task worth" type="text" class="form-control" id="points">
+                <label for="title">Payment:</label>
+                <input placeholder="How many dollars is this task worth" type="text" class="form-control" id="points">
                 <br />
                 
                 <button id="submit-task" type="submit" class="btn btn-warning submit">Submit</button>
