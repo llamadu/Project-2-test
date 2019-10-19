@@ -3,7 +3,6 @@ TidyBan is a heroku deployed CRUD app that tracks household tasks from delegatio
 
 ======================
 
-Deployment
 ======================
 
 Built with
