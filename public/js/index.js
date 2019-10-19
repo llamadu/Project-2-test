@@ -1,10 +1,10 @@
-// Get references to page elements
+//  page elements
 var $exampleText = $("#example-text");
 var $exampleDescription = $("#example-description");
 var $submitBtn = $("#submit");
 var $exampleList = $("#example-list");
 
-// The API object contains methods for each kind of request
+// The API object with methods for each request
 var API = {
   saveExample: function(example) {
     return $.ajax({
@@ -59,7 +59,7 @@ var refreshExamples = function() {
   });
 };
 
-// handleFormSubmit is called whenever we submit a new example
+// handleFormSubmit is called whenever there is a submit
 // Save the new example to the db and refresh the list
 var handleFormSubmit = function(event) {
   event.preventDefault();
