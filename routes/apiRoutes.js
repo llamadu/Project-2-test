@@ -1,4 +1,4 @@
-// Requiring our models
+// Require models
 var db = require("../models");
 var passport = require("../config/passport");
 // Routes
@@ -28,7 +28,7 @@ module.exports = function (app) {
     res.redirect("/");
   });
 
-  // Route for getting some data about our user to be used client side
+  // Route for getting some data about user to be used client side
   app.get("/api/user_data", function (req, res) {
     if (!req.user) {
       // The user is not logged in, send back an empty object
