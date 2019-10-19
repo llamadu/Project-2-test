@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Getting references to our form and inputs
+    // Get references to form and inputs
     var loginForm = $("form.login");
     var nameInput = $("input#name-input");
     var emailInput = $("input#email-input");
@@ -25,7 +25,7 @@ $(document).ready(function() {
       passwordInput.val("");
     });
   
-    // loginUser does a post to our "api/login" route and if successful, redirects us the the members page
+    // loginUser post "api/login" route and if successful, redirects us the the members page
     function loginUser(name, email, password) {
       $.post("/api/login", {
         name: name,
