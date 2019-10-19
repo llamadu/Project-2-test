@@ -33,7 +33,7 @@ module.exports = function (app) {
     res.render("login");
   });
 
-  // Here we've add our isAuthenticated middleware to this route.
+  // add isAuthenticated middleware to this route.
   // If a user who is not logged in tries to access this route they will be redirected to the signup page
   app.get("/members", isAuthenticated, function(req, res) {
     //make api call to tasks and store it in varaiable
